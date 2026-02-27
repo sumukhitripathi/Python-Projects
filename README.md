@@ -6,7 +6,6 @@ This repository contains a collection of Python projects, ranging from simple sc
 
 ### 1. Expense Tracker
 A simple command-line application to track daily expenses and view summaries based on month or category.
-- **Location:** `Expense-Tracker/`
 - **Features:**
   - Add expenses with month, category, and amount.
   - Store data in a CSV file.
@@ -15,6 +14,16 @@ A simple command-line application to track daily expenses and view summaries bas
   ```sh
   cd Expense-Tracker
   python expense_tracker.py
+  ```
+
+### 2. Python Calendar GUI
+A graphical user interface application for displaying and interacting with a calendar.
+- **Features:**
+  - Interactive calendar display
+  - User-friendly GUI interface
+- **How to Run:**
+  ```sh
+  python Python_calendar_GUI.py
   ```
 
 ## How to Use This Repository
