@@ -26,6 +26,17 @@ A graphical user interface application for displaying and interacting with a cal
   python Python_calendar_GUI.py
   ```
 
+### 3. Word Scramble Game
+A GUI-based two-player word scramble game where players take turns guessing the original word.
+- **Features:**
+  - Two-player turn-based gameplay
+  - Scrambled word challenges
+  - Live score tracking and winner announcement
+- **How to Run:**
+  ```sh
+  python Word_scramble_game.py
+  ```
+
 ## How to Use This Repository
 1. Clone the repository:
    ```sh
@@ -33,4 +44,4 @@ A graphical user interface application for displaying and interacting with a cal
    cd Python-Projects
    ```
 2. Navigate to the specific project folder and follow its README instructions.
-3. Run the Python script(s) as required.
+3. Run the Python scripts as required.
