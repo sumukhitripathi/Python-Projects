@@ -37,6 +37,17 @@ A GUI-based two-player word scramble game where players take turns guessing the 
   python Word_scramble_game.py
   ```
 
+### 4. Password Generator
+A command-line utility to generate secure random passwords.
+- **Features:**
+  - Generates random passwords
+  - Supports configurable password length
+  - Includes mixed characters for stronger security
+- **How to Run:**
+  ```sh
+  python Password_generator.py
+  ```
+
 ## How to Use This Repository
 1. Clone the repository:
    ```sh
