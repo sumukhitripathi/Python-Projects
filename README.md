@@ -1,6 +1,6 @@
 # Python Projects
 
-This repository contains a collection of Python projects, ranging from simple scripts to more advanced applications. Each project is structured with its own directory, containing the necessary scripts and documentation.
+This repository contains a collection of Python projects, ranging from simple scripts to more advanced applications. Each project is available as a standalone Python file that can be run directly.
 
 ## Projects Included
 
@@ -12,8 +12,7 @@ A simple command-line application to track daily expenses and view summaries bas
   - Retrieve summaries for a specific month or category.
 - **How to Run:**
   ```sh
-  cd Expense-Tracker
-  python expense_tracker.py
+  python Expenses_Tracker.py
   ```
 
 ### 2. Python Calendar GUI
@@ -38,14 +37,30 @@ A GUI-based two-player word scramble game where players take turns guessing the 
   ```
 
 ### 4. Password Generator
-A command-line utility to generate secure random passwords.
+A Tkinter-based password generator with a simple graphical interface and clipboard support.
 - **Features:**
-  - Generates random passwords
-  - Supports configurable password length
-  - Includes mixed characters for stronger security
+  - Generate random passwords from uppercase, lowercase, numbers, and symbols
+  - Choose password length with a spinbox input
+  - Copy the generated password directly to the clipboard
 - **How to Run:**
   ```sh
   python Password_generator.py
+  ```
+  Install `pyperclip` first if needed:
+  ```sh
+  pip install pyperclip
+  ```
+
+### 5. Library Management System
+A command-line library management program for adding books, viewing availability, issuing books, and returning them.
+- **Features:**
+  - Add new books to the library
+  - View all books with issued or available status
+  - Issue and return books using a menu-driven interface
+  - Save and load library data using `library.json`
+- **How to Run:**
+  ```sh
+  python Library_management_system.py
   ```
 
 ## How to Use This Repository
@@ -54,5 +69,5 @@ A command-line utility to generate secure random passwords.
    git clone https://github.com/YOUR_USERNAME/Python-Projects.git
    cd Python-Projects
    ```
-2. Navigate to the specific project folder and follow its README instructions.
-3. Run the Python scripts as required.
+2. Choose the script you want to run.
+3. Run it with Python from the repository root.
