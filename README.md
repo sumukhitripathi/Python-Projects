@@ -63,6 +63,20 @@ A command-line library management program for adding books, viewing availability
   python Library_management_system.py
   ```
 
+### 6. Quiz Application
+A blue-themed interactive quiz application built with Tkinter.
+- **Features:**
+  - Multiple-choice GUI quiz with a larger question bank
+  - Navigation control Buttons
+  - Side dashboard showing attempted questions and questions left to answer
+  - Clickable question status list for quick movement between questions
+  - Final score calculation with answer review after submission
+  - Simple sound effects for question flow and submission feedback on Windows
+- **How to Run:**
+  ```sh
+  python Quiz_application.py
+  ```
+
 ## How to Use This Repository
 1. Clone the repository:
    ```sh
